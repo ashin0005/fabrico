@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    display: block;
+}
+
+/* .top{
+    width: 5vw;
+    height:8vh;
+    border-radius: 50%;
+    background-color: #ccc;
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+} */
+nav {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid #ccc;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    position: fixed;
+    background-color: white;
+
+}
+
+nav .logo {
+    width: 30%;
+    height: 10vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .options {
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.options ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.options ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+li span {
+    display: flex;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: #7a7a7a;
+}
+
+
+/* carousal */
+
+
+.carousal {
+    width: 100%;
+    height: 62vh;
+    /* border: 1px solid #ccc; */
+    background-color: rgba(139, 206, 183, 0.164);
+}
+
+/* content */
+
+.container {
+    width: 100%;
+    height: 145vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* border: 1px solid #ccc; */
+
+}
+
+.title {
+    width: 100%;
+    height: 30vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.title2 {
+    width: 100%;
+    height: 5vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(0, 255, 170);
+
+
+}
+
+.disc {
+    width: 100%;
+    height: 13vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 0 6vw 0 6vw;
+
+}
+
+
+/* cards */
+
+
+.crd {
+    width: 100%;
+    height: 87vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 5vh;
+}
+
+.cards {
+    width: 20%;
+    height: 55vh;
+    /* border: 1px solid #ccc; */
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.cards .image {
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid #ccc; */
+
+}
+
+.cards .title {
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid #ccc; */
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 1vw;
+}
+
+.cards .dis {
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid #ccc; */
+    font-size: .9rem;
+    padding-left: 1vw;
+
+}
+
+.cards .btn {
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid #ccc; */
+    padding-left: .5vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.cards a {
+    padding: .8vw 1vw .8vw 1vw;
+    background-color: rgb(1, 221, 148);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: .5vw;
+}
+
+.prdt-list {
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid #ccc; */
+}
+
+.btn1 {
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn2 {
+    width: 100%;
+    height: 13vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: white;
+    padding: 1vw 1.2vw 1vw 1.2vw;
+    border-radius: .5vw;
+    background-color: #555555;
+    font-weight: 600;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+    padding: 1vw 1.2vw 1vw 1.2vw;
+    border-radius: .5vw;
+    background-color: #555555;
+    font-weight: 600;
+}
+
+
+/* container 2 */
+
+
+.container2 {
+    width: 100%;
+    height: 190vh;
+    background-color: rgba(139, 206, 183, 0.164);
+
+}
+
+.container2 .title {
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.container2 .disc {
+
+    width: 100%;
+    height: 13vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 0 6vw 0 6vw;
+    color: #555555;
+}
+
+/* cards 2 */
+
+
+.crds2 {
+    width: 100%;
+    height: 147vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5vw;
+}
+
+.container2 .crds2 .card {
+    width: 40%;
+    height: 30vh;
+    background-color: white;
+    border-radius: .6vw;
+    box-shadow: rgba(15, 255, 195, 0.178) 0px 4px 12px;
+}
+
+.card .image {
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card .title {
+    width: 100%;
+    height: 5vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.card .dis {
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card .btn {
+    width: 100%;
+    height: 6vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.card a {
+    padding: .8vw 1vw .8vw 1vw;
+    background-color: rgb(1, 221, 148);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: .5vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card:hover {
+    background-color: rgba(139, 206, 183, 0.164);
+}
+
+.bt {
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid red; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* container 3 */
+
+
+.container3 {
+    width: 100%;
+    height: 130vh;
+    /* border: 1px solid red; */
+
+}
+
+.container3 .title {
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.crds2 {
+    width: 100%;
+    height: 147vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5vw;
+}
+
+.container3 .crds2 .card1 {
+    width: 40%;
+    height: 30vh;
+    background-color: white;
+    border-radius: .6vw;
+    box-shadow: rgba(4, 212, 160, 0.288) 0px 5px 15px;
+
+}
+
+.card1::after {
+    content: "1";
+    width: 60px;
+    height: 60px;
+    background-color: rgb(9, 153, 81);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 44%;
+    margin-top: 4%;
+
+}
+
+
+.card1 .image {
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card1 .title {
+    width: 100%;
+    height: 5vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.card1 .dis {
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card1 .btn {
+    width: 100%;
+    height: 6vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.card1 a {
+    padding: .8vw 1vw .8vw 1vw;
+    background-color: rgb(1, 221, 148);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: .5vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card1:hover {
+    background-color: rgba(139, 206, 183, 0.164);
+}
+
+.container3 .crds2 {
+    width: 100%;
+    height: 75vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5vw;
+}
+
+/* .container 4 */
+
+
+
+.container4 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(116, 163, 147, 0.164);
+}
+
+.container4 .title {
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.container4 .disc {
+    width: 100%;
+    height: 13vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 0 6vw 0 6vw;
+
+}
+
+.crd-pic {
+    width: 100%;
+    height: 57vh;
+    /* border: 1px solid red; */
+    display: inline-flex;
+}
+
+.c {
+    width: 50%;
+    height: 65%;
+    /* border: 1px solid red; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 4vw;
+
+}
+
+.c .card {
+    width: 38%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 1vw;
+    box-shadow: rgba(3, 238, 255, 0.301) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.c .card .image {
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+
+}
+
+.c .card .hr {
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+    color: #555555;
+
+
+}
+
+.c .card .title {
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid red; */
+    font-size: 1.2rem;
+    color: rgb(9, 250, 190);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.c .card .dis {
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+
+}
+
+.p {
+    width: 50%;
+    height: 75%;
+    /* border: 1px solid red; */
+}
+
+/* .container 5 */
+
+
+.container5{
+    width: 100%;
+    height: 200vh;
+    /* border:1px solid red */
+}
+.container5 .title {
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.disc {
+    width: 100%;
+    height: 13vh;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 0 6vw 0 6vw;
+
+}
+.pc{
+    width: 100%;
+    height: 157vh;
+    /* border:1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3vw;
+    margin-top: 1vw;
+}
+.pc .card{
+    width: 90%;
+    height: 26vh;
+    background-color: #05d47e4b;
+    border-radius: 1vw;
+    
+}
+.pc .title {
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid red; */
+    font-size: 1.3rem;
+    color: rgb(9, 250, 190);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
